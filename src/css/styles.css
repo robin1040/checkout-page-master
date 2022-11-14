@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 12px;
+}
+
+header{
+    margin-top: 32px;
+}
+
+h1{
+    color: #4E5150;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+}
+
+.container-products{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    width: 90vw;
+    height: 549px;
+    margin-top: 20.96px;
+}
+.item{
+    display: flex;
+    padding-top: 30px;
+}
+figure{
+    width: 122.75px;
+    height: 124.64px;
+    margin-left: 18px;
+}
+
+figure img{
+    width: 100%;
+    border-radius: 12px;
+}
+.item-pay{
+    margin-left: 14px;
+}
+
+.item-pay h3{
+    font-size: 12px;
+    font-weight: 600;
+    color: #4E5150;
+    line-height: 14.63px;
+    width: 148.65px;
+    height: 20.31px;
+}
+
+.price-box{
+    display: flex;
+    margin-top: 6px;
+    gap: 20px;
+}
+
+.orange{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    color: #F2994A;
+    transform: rotate(-0.02deg);
+}
+.price-box p:nth-child(2){
+    font-size: 11px;
+    padding-top: 3px;
+    font-weight: 600;
+    line-height: 12.19px;
+    text-decoration: line-through;
+    color: #4E5150;
+    transform: rotate(-0.02deg);
+}
+.container-amount{
+    display: flex;
+    width: 122.8px;
+    height: 49.86px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 31.4px;
+}
+.container-amount button{
+    width: 22.16px;
+    height: 22.16px;
+    border: none;
+    background-color: #E0E0E0;
+    border-radius: 4px;
+}
+.container-amount button:hover{
+    cursor: pointer;
+}
+.container-amount button span{
+    color: #828282;
+    font-size: 19px;
+}
+.container-amount p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+.container-sum{
+    margin: 86px 18px 0 23.99px;
+}
+.item-total{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+    height: 40px;
+    align-items: center;
+}
+.container-sum div:nth-child(1){
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+}
+.container-sum div:nth-child(2){
+    border-bottom: 1px solid #BDBDBD;
+}
+
